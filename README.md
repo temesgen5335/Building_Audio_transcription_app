@@ -1,4 +1,5 @@
-# Building an Audio Transcription APP using Whisper API from Openai
+# Building an Audio Transcription APP 
+Using Whisper API from Openai and Streamlit
 
 
 ## Installation
@@ -7,16 +8,21 @@
 python -m venv .venv
 ```
 2. Activate virtual environment
+- For Windows
 ```sh
 .venv/Scripts/activate
 ```
+- for Mac / Linux
+```sh
+source .venv/bin/activate 
+```
 3. Clone the repository
 ```sh
-git clone https://github.com/temesgen5335/Building_Audio_Transcription_app.git
+git clone https://github.com/temesgen5335/Building_Audio_transcription_app.git
 ```
 4. Navigate to the project directory
 ```sh
-cd Building Audio transcription App
+cd Building_Audio_transcription_app
 ```
 5. Install Stramlit
 ```sh
@@ -26,6 +32,9 @@ pip install stramlit
 ```sh
 pip install -r requirements.txt
 ```
+7. Run the app
+```sh
+streamlit run script/whisper_streamlit.py
 
 
 ## License
