@@ -35,7 +35,7 @@ pip install -r requirements.txt
 7. Run the app
 ```sh
 streamlit run script/whisper_streamlit.py
-
+```
 
 ## License
 
